@@ -12,13 +12,12 @@ This project focuses on classifying images of handwritten digits (0-9) using the
 6. [Results](#results)  
 7. [How to Run](#how-to-run)  
 8. [File Structure](#file-structure)  
-9. [Screenshots](#screenshots)  
-10. [References](#references)
+9. [References](#references)
 
 
 # Overview  
-The goal of this project is to develop a deep learning model to classify handwritten digits using the **MNIST dataset**. The dataset contains grayscale images (28x28 pixels) of digits from 0 to 9.  
-By utilizing **Convolutional Neural Networks (CNNs)**, we achieve high accuracy in predicting the digits.
+The goal of this project is to develop a deep learning model to classify handwritten digits using the *MNIST dataset*. The dataset contains grayscale images (28x28 pixels) of digits from 0 to 9.  
+By utilizing **Convolutional Neural Networks (CNNs)*, we achieve high accuracy in predicting the digits.
 
 # Dataset Description  
 - **Name**: MNIST (Modified National Institute of Standards and Technology) Dataset  
@@ -40,13 +39,13 @@ For more information about the dataset: [TensorFlow MNIST Dataset](https://www.t
 
 ## Project Workflow  
 
-1. **Data Loading and Preprocessing**:  
+1. Data Loading and Preprocessing:  
    - Load MNIST dataset using TensorFlow.  
    - Reshape images to a shape suitable for CNN input (`28x28x1`).  
    - Normalize pixel values to range `[0, 1]`.  
    - Perform one-hot encoding for labels.
 
-2. **Model Building**:  
+2. Model Building:  
    - Define a CNN architecture with Conv2D, MaxPooling2D, and Dense layers.  
    - Use Softmax activation for output to predict probabilities.
 
