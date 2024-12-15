@@ -1,7 +1,7 @@
 # QUANTBIT-TECHNOLOGIES-PVT-LTD-Task
 # Image Classification: MNIST Handwritten Digit Classification using CNN
 
-This project focuses on classifying images of handwritten digits (0-9) using the **MNIST dataset**. The classification is performed using **Convolutional Neural Networks (CNNs)** implemented in TensorFlow/Keras. The project includes data preprocessing, model creation, training, and evaluation.
+This project focuses on classifying images of handwritten digits (0-9) using the MNIST dataset. The classification is performed using Convolutional Neural Networks (CNNs) implemented in TensorFlow/Keras. The project includes data preprocessing, model creation, training, and evaluation.
 
 # Table of Contents  
 1. [Overview](#overview)  
@@ -16,8 +16,8 @@ This project focuses on classifying images of handwritten digits (0-9) using the
 
 
 # Overview  
-The goal of this project is to develop a deep learning model to classify handwritten digits using the *MNIST dataset*. The dataset contains grayscale images (28x28 pixels) of digits from 0 to 9.  
-By utilizing **Convolutional Neural Networks (CNNs)*, we achieve high accuracy in predicting the digits.
+The goal of this project is to develop a deep learning model to classify handwritten digits using the MNIST dataset. The dataset contains grayscale images (28x28 pixels) of digits from 0 to 9.  
+By utilizing Convolutional Neural Networks (CNNs), we achieve high accuracy in predicting the digits.
 
 # Dataset Description  
 - **Name**: MNIST (Modified National Institute of Standards and Technology) Dataset  
@@ -91,8 +91,10 @@ For more information about the dataset: [TensorFlow MNIST Dataset](https://www.t
 ## How to Run  
 
 1. Clone the repository:  
+   ```
    git clone <repository-link>
    cd <repository-folder>
+   ```
 
 2. Install dependencies:  
    ```
