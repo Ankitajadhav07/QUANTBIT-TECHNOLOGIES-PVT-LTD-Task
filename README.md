@@ -1,9 +1,5 @@
 # QUANTBIT-TECHNOLOGIES-PVT-LTD-Task
-MNIST Handwritten Digit Classification using CNN
-Sure! Here's the updated **README.md** that includes the two steps for **Visualizing a random subset of MNIST images with their labels** and **Plotting the accuracy graph**.
-
-
-# MNIST Handwritten Digit Classification using CNN
+# Image Classification: MNIST Handwritten Digit Classification using CNN
 
 This project focuses on classifying images of handwritten digits (0-9) using the **MNIST dataset**. The classification is performed using **Convolutional Neural Networks (CNNs)** implemented in TensorFlow/Keras. The project includes data preprocessing, model creation, training, and evaluation.
 
